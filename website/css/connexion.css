@@ -1,0 +1,47 @@
+.container{
+  display: flex;
+  justify-content: center;
+}
+
+.connBox {
+    width: 33%;
+    padding: 20px 20px 20px 20px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 5px grey;
+    background-color: whitesmoke;
+    margin-top: 150px;
+}
+
+input[type=text], select {
+    padding: 12px 20px;
+    margin: 8px 0;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: flex;
+  }
+
+h1{
+  text-align: center;
+}
+
+  input[type=password], select {
+    padding: 12px 20px;
+    margin: 8px 0;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    align-items: center;
+  }
